@@ -1,3 +1,38 @@
+<!--<template>-->
+  <!--<div>-->
+    <!--<h1>Hi!</h1>-->
+    <!--<button @click="login">Login</button>-->
+    <!--<router-link to="/foo">/foo</router-link>-->
+  <!--</div>-->
+<!--</template>-->
+
+<!--<script>-->
+  <!--export default {-->
+    <!--async asyncData({app}) {-->
+      <!--console.log('asyncData: '+ app.$axios.defaults.baseURL)-->
+      <!--return {}-->
+    <!--},-->
+    <!--async fetch({app}) {-->
+      <!--console.log('fetch: '+ app.$axios.defaults.baseURL)-->
+    <!--},-->
+    <!--async mounted() {-->
+      <!--console.log('mounted: '+ this.$axios.defaults.baseURL)-->
+    <!--},-->
+    <!--async created() {-->
+      <!--console.log('created: '+ this.$axios.defaults.baseURL)-->
+    <!--},-->
+    <!--methods: {-->
+      <!--async login () {-->
+        <!--this.$store.dispatch('login', {-->
+          <!--$axios: this.$axios,-->
+          <!--user: this.user-->
+        <!--})-->
+      <!--}-->
+    <!--}-->
+  <!--}-->
+<!--</script>-->
+
+
 <template>
   <section class="container">
     <div>
